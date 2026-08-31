@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Conversor de moedas</h1>
+    <div class="main">
+        <p>Digite o valor que você quer converter</p> <br>
+        <input type="number" name="valor" id="valor">
+        <label for="reais"></label>
+        <p>Selecione a moeda desejada</p>
+        <select name="moedas" id="conv-moedas">
+            <option value="Euro">Euro</option>
+            <option value="Dolar">Dolar</option>
+            <option value="Iene">Iene</option>
+            <option value="Won">Won</option>
+        </select>
+        <button id="converter-btn">Converter!</button>
+        <p id="elemento-txt"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
