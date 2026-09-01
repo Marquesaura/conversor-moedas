@@ -12,16 +12,18 @@
 
     <h1>Conversor de moedas</h1>
     <div class="main">
-        <p>Digite o valor que você quer converter</p> <br>
-        <input type="number" name="valor" id="valor">
-        <label for="reais"></label>
-        <p>Selecione a moeda desejada</p>
+
+        <p>Selecione a moeda de início</p>
         <select name="moedas" id="conv-moedas">
+            <option value="Selecione">Selecione</option>
             <option value="Euro">Euro</option>
             <option value="Dolar">Dolar</option>
             <option value="Iene">Iene</option>
             <option value="Won">Won</option>
         </select>
+        <p>Digite o valor que você quer converter</p> 
+        <input type="number" name="valor" id="valor">
+        <label for="reais"></label>
         <button id="converter-btn">Converter!</button>
         <p id="elemento-txt"></p>
     </div>

@@ -10,7 +10,7 @@ btnConverter.addEventListener('click', () => {
         elementoTexto.innerText = `R$ ${valorFinal.toFixed(2)}`;
 
     } else if (moeda == "Euro") {
-        let taxa = 6.02;
+        let taxa = 5.97;
         let valorFinal = valorInicial * taxa;
         elementoTexto.innerText = `R$ ${valorFinal.toFixed(2)}`;
     } else if (moeda == "Iene") {
